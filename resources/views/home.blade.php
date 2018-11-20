@@ -1,5 +1,6 @@
+<!-- esta plantilla llamada Home.blade.php extiende de la plantilla padre layouts.app -->
 @extends('layouts.app')
-
+<!-- aqui se define esa seccion que ira en la plantilla padre sobre yield 'content' -->
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
